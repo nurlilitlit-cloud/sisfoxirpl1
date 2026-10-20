@@ -1,0 +1,47 @@
+<?php
+
+return [
+    'accepted' => ':attribute harus diterima.',
+    'confirmed' => 'Konfirmasi :attribute tidak cocok.',
+    'email' => ':attribute harus berupa alamat email yang valid.',
+    'exists' => ':attribute yang dipilih tidak valid.',
+    'in' => ':attribute yang dipilih tidak valid.',
+    'integer' => ':attribute harus berupa bilangan bulat.',
+    'numeric' => ':attribute harus berupa angka.',
+    'required' => ':attribute wajib diisi.',
+    'string' => ':attribute harus berupa teks.',
+    'unique' => ':attribute sudah digunakan.',
+    'max' => [
+        'numeric' => ':attribute tidak boleh lebih dari :max.',
+        'string' => ':attribute tidak boleh lebih dari :max karakter.',
+    ],
+    'min' => [
+        'numeric' => ':attribute tidak boleh kurang dari :min.',
+        'string' => ':attribute minimal :min karakter.',
+    ],
+
+    'attributes' => [
+        'nama_kelas' => 'Nama kelas',
+        'tingkat' => 'Tingkat',
+        'jurusan' => 'Jurusan',
+        'tahun_ajaran' => 'Tahun ajaran',
+        'nis' => 'NIS',
+        'nama' => 'Nama',
+        'jenis_kelamin' => 'Jenis kelamin',
+        'alamat' => 'Alamat',
+        'no_hp' => 'No HP',
+        'kelas_id' => 'Kelas',
+        'nip' => 'NIP',
+        'email' => 'Email',
+        'kode_mapel' => 'Kode mapel',
+        'nama_mapel' => 'Nama mapel',
+        'kkm' => 'KKM',
+        'siswa_id' => 'Siswa',
+        'mapel_id' => 'Mata pelajaran',
+        'nilai_tugas' => 'Nilai tugas',
+        'nilai_uts' => 'Nilai UTS',
+        'nilai_uas' => 'Nilai UAS',
+        'name' => 'Nama',
+        'password' => 'Kata sandi',
+    ],
+];
